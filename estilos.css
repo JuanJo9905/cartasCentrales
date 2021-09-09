@@ -1,0 +1,112 @@
+body{
+  text-align: center;
+}
+img{
+
+  float: right;
+  margin: 0 2rem 1rem;
+}
+
+.titulo-blanco{
+  color: grey;
+  margin-bottom: 0;
+}
+.titulo-negro{
+  margin-top: 0;
+}
+.descripcion{
+  color: grey;
+}
+.cuadro-supervisor,.cuadro-builder,.cuadro-karma,.cuadro-calculator{
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0;
+  border-top-width: 5px;
+  box-shadow: 3px 4px 10px grey;
+  display: inline-block;
+  text-align: left;
+  height: auto;
+  position: absolute;
+  width: 25%;
+
+}
+
+.cuadro-titulo{
+  margin-left: 1rem;
+}
+.cuadro-descripcion{
+  color: grey;
+  margin-left: 1rem;
+  width: 80%
+
+}
+.cuadro-supervisor{
+  border-color: blue;
+  top: 50%;
+  left: 6%;
+}
+
+.cuadro-builder{
+  border-color: red;
+  top: 30%;
+  left: 38%;
+}
+.cuadro-karma{
+  border-color: orange;
+  top: 70%;
+  left: 38%;
+}
+.cuadro-calculator{
+  border-color: blue;
+  top: 50%;
+  right: 6%;
+}
+
+.attribution{
+  left: 35%;
+  right: 35%;
+  position: absolute;
+  top: 120%;
+}
+
+@media (max-width: 767px) {
+
+  .cuadro-supervisor{
+    border-color: blue;
+    top: 40%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 35%;
+  }
+
+  .cuadro-builder{
+    border-color: red;
+    top: 80%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 35%;
+  }
+  .cuadro-karma{
+    border-color: orange;
+    top: 120%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 35%;
+  }
+  .cuadro-calculator{
+    border-color: blue;
+    top: 160%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 35%;
+  }
+
+  .attribution{
+    font-size: 0.8rem;
+    top: 200%;
+  }
+}
